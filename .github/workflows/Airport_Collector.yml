@@ -39,8 +39,8 @@ jobs:
           python ./utils/list_merge_airport.py
       - name: Commit Changes
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "6668431@gmail.com"
+          git config --local user.name "878088"
           git pull origin master
           git add ./sub
           git checkout master
@@ -59,8 +59,8 @@ jobs:
           python ./utils/airport/speedtest/output.py
       - name: Commit changes
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "6668431@gmail.com"
+          git config --local user.name "878088"
           git pull origin master
           git add EternityAir
           git add EternityAir.txt
@@ -83,8 +83,8 @@ jobs:
           python ./utils/eternity_convert_airport.py
       - name: Commit changes
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "6668431@gmail.com"
+          git config --local user.name "878088"
           git pull origin master
           git add EternityAir.yml
           git add ./update/*
